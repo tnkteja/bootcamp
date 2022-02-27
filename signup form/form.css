@@ -1,0 +1,120 @@
+
+@import url("./Norse-Bold.otf");
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+    /* background-image: url("./halie-west-25xggax4bSA-unsplash.jpg"); */
+    background-size: 100%;
+}
+
+.box {
+    margin: 0 10em 0 10em;
+    height: 100vh;
+}
+
+.sb {
+    width: 40%;
+    height: 150%;
+    display: inline-block;
+    background-image: url("./halie-west-25xggax4bSA-unsplash.jpg");
+    background-size: 40em;
+    background-repeat: no-repeat;
+    position:relative;
+    top: -25em;
+}
+.sbb {
+    position: relative;
+    top: 14em;
+    background-color: #000;
+    opacity: .5;
+    width: 100%;
+    height: 10em;
+    color: white;
+}
+.i {
+    position: relative;
+    padding: 2em 0em 0em 5em;
+    top:1em;
+}
+.l {
+    font-size: 5em;
+}
+.f {
+   width: 59%;
+   height: 112%;
+   display: inline-block;
+   vertical-align: middle;
+   background-color: antiquewhite;
+   position: relative;
+    left: -3px;
+}
+
+.f2 {
+    vertical-align: middle;
+    padding: 10em 0em 10em 0em;
+}
+
+.fb {
+    display: inline-block;
+    background-color: white;
+    box-shadow: 0 2px;
+    width: 100%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 4px;
+}
+
+.fl {
+    display: inline-block;
+    padding: 1em;
+}
+.fc {
+    display: inline-block;
+    margin: 0 1em 0 2em;
+}
+
+#ln:focus {
+    border: #E5E7EB;
+}
+input {
+    height: 1.5em;
+    width: 15em;
+}
+.b {
+    padding-left: 2em;
+}
+.button {
+    color:white;
+    border: none;
+    border-radius: 5px;
+    background-color: #596D48;
+    padding: 1em 3em;
+}
+
+.a{
+    color: #596D48;
+    text-decoration: none;
+}
+
+h2{
+    padding-left: 2em;
+}
+
+#pw:invalid{
+    border-color: red;
+    border-radius:1px;
+}
+
+#cp:invalid{
+    border-color: red;
+    border-radius:1px;
+}
+
+.s {
+    padding-left: 2.5em;
+    color: red;
+}

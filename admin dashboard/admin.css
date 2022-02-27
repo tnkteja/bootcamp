@@ -1,0 +1,57 @@
+html{
+    height: 100%;
+    font-family: RO;
+}
+body {
+    height:100%;
+}
+.container {
+    display: grid;
+grid-template-columns: 25% 75%;
+grid-template-rows: 20% 80%;
+background: gray;
+height: 100%;
+}
+
+.container>.sb {
+    border: 1px solid red;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end:3;
+    display: grid;
+    grid-template-rows: 10% 40% 20%;
+    background-color: skyblue;
+    justify-items: center;
+    align-items: center;
+    color: white;
+}
+.container>.h {
+    border: 1px solid red;
+}
+
+.container>.main {
+    border: 1px solid red;
+}
+
+.sb>.logo {
+    border: 1px solid red;
+}
+
+.sb>.menu {
+    border: 1px solid red;
+}
+
+.menu {
+    display: grid;
+    grid-template-rows: 16.67%;
+    grid-row-gap:   1em;
+}
+.sb>.othermenu {
+    border: 1px solid red;
+}
+.othermenu {
+    display: grid;
+    grid-template-rows: 33.3%;
+    grid-row-gap: 1em;
+}
