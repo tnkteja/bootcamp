@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <link rel="stylesheet" href="./library.css">
+</head>
+<body>
+    <div id="books">
+        <button onclick="newbook()" class="b">NEW BOOK</button>
+        <br><br><br>
+        <table>
+            <tr>
+                <th>Book</th>
+                <th>Title</th>
+                <th>Author</th>
+                <th>numberOfPages</th>
+                <th>read</th>
+            </tr>
+            <th><td>Books</td></th>
+            <tr></tr>
+        </table>
+    </div>
+    <form>
+        <fieldset>
+            <label>author</label>
+        <input id="author"name="author"><br>
+        </fieldset>
+        <fieldset>
+            <label>title</label>
+        <input id="title"name="title"><br>
+        </fieldset>
+        <fieldset>
+            <label>number of pages</label>
+        <input id="numberOfPages" name="noOfPages" type="number"><br>
+        </fieldset>
+        <fieldset>
+            <button onclick="add()" type="button">Add</button>
+        </fieldset>
+    </form>
+    <script type="text/javascript" src="./library.js"></script>
+</body>
+</html>

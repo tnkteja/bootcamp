@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./tl.css">
+</head>
+<body>
+    <div class="sl">
+        <h2>Default</h2>
+    </div>
+    <div class="sb">
+        <button onclick="addToDo('default')">Add todo</button>
+    </div>
+    <form>
+        <fieldset>
+            <legend>Add to do</legend>
+            <label>Project</label>
+            <select>
+                <option value="default" selected>default</option>
+                <option value="new">new</option>
+            </select>
+            <br>
+            <label>Enter name of project</label>
+                <input id="iproject">
+        </fieldset>
+        <fieldset>
+            <label>title</label>
+            <input id="ititle">
+        </fieldset>
+        <fieldset>
+            <label>descriptiom</label>
+            <textarea id="tdescription"></textarea>
+        </fieldset>
+        <fieldset>
+            <label>duedate</label>
+            <input type="date" id="idate">
+        </fieldset>
+        <fieldset>
+            <label>priority</label>
+            <select id="spriority">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <label>notes</label>
+            <textarea id="tnotes"></textarea>
+        </fieldset>
+        <fieldset>
+            <label>Checklist</label>
+            <table>
+            </table>
+            <input>
+            <button>add</button>
+        </fieldset>
+        <fieldset>
+            <button onclick="addtodo()">Add todo</button>
+            &nbsp;<button onclick="close()">Close</button>
+        </fieldset>
+    </form>
+</body>
+</html>

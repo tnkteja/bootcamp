@@ -1,0 +1,11 @@
+table, tr, td {
+    border: 1px solid black;
+}
+td {
+    height: 2em;
+    width: 2em;
+}
+
+h1 {
+    display: none;
+}

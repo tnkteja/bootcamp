@@ -1,0 +1,17 @@
+html {
+    color: black;
+}
+
+table, th, td {
+    border:1px solid black;
+  }
+
+  .b {
+  }
+
+  form {
+      position: absolute;
+      left:30%;
+      top:30%;
+      display: none;
+  }

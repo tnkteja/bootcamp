@@ -1,45 +1,81 @@
 html{
-    height: 100%;
-    font-family: RO;
+    height: 75em;
+    font-family: 'Roboto', sans-serif;
+
 }
 body {
+    background-color: black;
     height:100%;
+}
+
+h3,h1,p {
+    margin:0;
 }
 .container {
     display: grid;
 grid-template-columns: 25% 75%;
-grid-template-rows: 20% 80%;
+grid-template-rows: 16% 84%;
 background: gray;
 height: 100%;
+margin: 0 1em 0 1em;
 }
 
 .container>.sb {
-    border: 1px solid red;
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 1;
     grid-row-end:3;
     display: grid;
-    grid-template-rows: 10% 40% 20%;
+    grid-template-rows: 10% 30% 20%;
     background-color: skyblue;
     justify-items: center;
     align-items: center;
     color: white;
 }
-.container>.h {
-    border: 1px solid red;
-}
 
+.container>.h {
+    display: grid;
+    grid-template-rows: 50% 50%;
+    background-color: white;
+
+}
+.container>.h>.uh {
+    display: grid;
+    grid-template-columns: 5% 50% 12.5% 12.5% 20%;
+    align-items: center;
+}
+.container>.h>.lh {
+    display: grid;
+    grid-template-columns: 15% 40% 15% 15% 15%;
+}
+.b {
+    border-radius: 3em;
+    border: none;
+    color: white;
+    background-color: skyblue;
+    margin: 2em;
+    box-shadow: none;
+    height: 3em;
+    align-self: center;
+}
+input {
+    border-radius: 2em;
+    background-color: gray;
+    width: 80%;
+    border: none;
+    height: 2em;
+}
 .container>.main {
-    border: 1px solid red;
 }
 
 .sb>.logo {
-    border: 1px solid red;
+    font-size: 1.5em;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-gap: 0.5em;
 }
 
 .sb>.menu {
-    border: 1px solid red;
 }
 
 .menu {
@@ -47,11 +83,107 @@ height: 100%;
     grid-template-rows: 16.67%;
     grid-row-gap:   1em;
 }
+
+.menu > label {
+font-size: 1em;
+}
+.item {
+    display: grid;
+    grid-template-columns: 35% 65%;
+    align-self: center;
+}
+
+.uhw {
+    align-self: center;
+}
+
 .sb>.othermenu {
-    border: 1px solid red;
 }
 .othermenu {
     display: grid;
     grid-template-rows: 33.3%;
     grid-row-gap: 1em;
 }
+
+.main {
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+.mcl {
+    display: grid;
+    grid-template-rows: 5% 95%;
+}
+.mcli {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 33% 33% 34%;
+    height: 100%;
+}
+
+.mcli >.li {
+    border-left: 0.5em solid yellow;
+    box-shadow: 1em;
+    margin: 1em;
+    background-color: white;
+    border-radius: 0.5em;
+    padding: 2em;
+}
+
+.mcr {
+    display: grid;
+    grid-template-rows: 40% 60%;
+    grid-gap: 1em;
+}
+
+.mcriu, .mcril {
+    
+}
+h2 {
+    margin-left: 1em;
+}
+h4 {
+    margin:0;
+}
+.mcriul {
+
+}
+.mcril {
+}
+
+.mcriul {
+    display: grid;
+    grid-template-rows: 6em 6em 6em;
+    border-radius: 1em;
+    background-color: white;
+    margin: 1em;
+    padding: 1em;
+}
+
+.mcriur {
+    display: grid;
+    grid-template-rows: 2em;
+    background-color: white;
+    margin: 1em;
+    padding: 1em;
+    border-radius: 1em;
+    grid-row-gap:1em;
+}
+
+.mcriur>div {
+    display: grid;
+    grid-template-columns: 30% 70%;
+
+}
+
+.i{
+    height: 2em;
+    align-self: center;
+    padding-left: 1em;
+    left: 1em;
+    position: relative;
+}
+
+.ic {
+    margin: 3em 0em 0em 8em;
+    float: right;
+  }

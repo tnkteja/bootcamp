@@ -26,3 +26,4 @@ let r=[1,2,3]
 
 r.rotateRight(2);
 console.log(r);
+

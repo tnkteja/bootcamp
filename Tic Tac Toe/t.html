@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./t.css">
+</head>
+<body>
+   <table>
+        <tr>
+            <td id="e00"><button onclick="addMark([0,0])">_</button></td>
+            <td id="e01"><button onclick="addMark([0,1])">_</button></td>
+            <td id="e02"><button onclick="addMark([0,2])">_</button></td>
+        </tr>
+        <tr>
+            <td id="e10"><button onclick="addMark([1,0])"> _</button></td>
+            <td id="e11"><button onclick="addMark([1,1])">_</button></td>
+            <td id="e12"><button onclick="addMark([1,2])">_</button></td>
+        </tr>
+        <tr>
+            <td  id="e20"><button onclick="addMark([2,0])">_</button></td>
+            <td  id="e21"><button onclick="addMark([2,1])">_</button></td>
+            <td  id="e22"><button onclick="addMark([2,2])">_</button></td>    
+        </tr>
+    </table>
+    <br>
+    <button type="button" onclick="start()">Start</button>
+    <h1>Congratulations! Player <label></label> won the game.</h1>
+    <script type="text/javascript" src="./t.js"></script>
+</body>
+</html>

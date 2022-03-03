@@ -1,0 +1,14 @@
+body {
+    background-color: gray;
+    display:grid;
+    grid-template-columns: 70% 30%;
+}
+
+form {
+    position: absolute;
+    top: 8em;
+    left: 36vw;
+    background-color: aliceblue;
+    width: 27vw;
+    margin: auto;
+}
