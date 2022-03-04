@@ -3,3 +3,10 @@ body {
     margin: 0 auto;
     background-color: green;
 }
+
+body > div, #content {
+    margin: auto;
+        display: table;
+        text-align:center;
+}
+

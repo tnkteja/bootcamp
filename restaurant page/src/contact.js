@@ -4,7 +4,7 @@
     h1.innerHTML = "Contact";
 
     let p = document.createElement(`p`);
-    p.innerHTML = "Chef\n555-555-5554\ntotallyRealEmail@notFake.com";
+    p.innerHTML = "Chef<br>555-555-5554<br>totallyRealEmail@notFake.com";
 
     let content = document.querySelector(`#content`);
 
